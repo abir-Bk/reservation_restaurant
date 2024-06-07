@@ -1,0 +1,102 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* Body */
+body {
+    overflow-x: hidden;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Headers */
+.header, .header2 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header h3, .header2 h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-size: 2.5rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    font-size: 2rem;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #3A3B3B;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #d1c8c8;
+    color: #000;
+}
+
+/* Header Buttons */
+.header-button {
+    margin-top: 50px;
+}
+
+.header-button .btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.header-button .btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer .social-icon a {
+    margin: 0 15px;
+}
+
+.footer .social-icon .fa {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.footer .social-icon .fa:hover {
+    background-color: #3A3B3B;
+    color: #fff;
+}
+
+.bordernow {
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    margin: 20px auto;
+}
